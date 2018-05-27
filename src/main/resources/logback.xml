@@ -1,0 +1,11 @@
+<configuration>
+    <appender name="GLASSFISH" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} %-5level %logger{36} - %msg</pattern>
+        </encoder>
+    </appender>
+
+    <root level="debug">
+        <appender-ref ref="GLASSFISH"/>
+    </root>
+</configuration>
